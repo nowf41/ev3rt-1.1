@@ -6,10 +6,11 @@
 sudo apt update
 sudo apt install build-essential ruby -y
 sudo gem install shell
-sudo bash ev3rt-prepare-ubuntu.sh
+yes 1 | sudo bash ev3rt-prepare-ubuntu.sh
 
 tar xvf hrp3.tar.xz
 
 # PATH
+touch ~/.bashrc
 echo "export PATH=\"\$PATH:/opt/gcc-arm-none-eabi-6-2017-q1-update/bin\"" >> ~/.bashrc
 source ~/.bashrc
