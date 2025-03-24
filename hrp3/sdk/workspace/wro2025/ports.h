@@ -2,7 +2,6 @@
 #define PORTS_H
 
 // === PORTS ===
-
 #define LEFT_MOTOR EV3_PORT_A
 #define RIGHT_MOTOR EV3_PORT_B
 #define CRANE EV3_PORT_C
@@ -24,12 +23,12 @@
 #define GYRO_TYPE GYRO_SENSOR
 
 // ===MACHINE INFORMATION===
-
-#define TIRE_RADIUS 22. // milli meter (float)
+#define TIRE_RADIUS 22. // 直径。milli meter (float)
 #define TIRE_DISTANCE 100. // milli meter (float)
 
 // === CONTROL CONSTANTS ===
 #define P_GAIN 1.0 // float
+
 // === GENERAL ===
 #define PI 3.14 // float
 
