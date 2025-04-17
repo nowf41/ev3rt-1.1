@@ -157,8 +157,8 @@ const signed_t TOPPERS_cfg_valueof_itskpri_16 = (signed_t)(TMIN_APP_TPRI + 1);
 #line 6 "../workspace/wro2025/app.cfg"
 const unsigned_t TOPPERS_cfg_valueof_stksz_16 = (unsigned_t)(STACK_SIZE);
 
-#line 10 "../workspace/wro2025/app.cfg"
+#line 9 "../workspace/wro2025/app.cfg"
 const unsigned_t TOPPERS_cfg_static_api_17 = 17;
-#line 10 "../workspace/wro2025/app.cfg"
+#line 9 "../workspace/wro2025/app.cfg"
 const char * TOPPERS_cfg_valueof_modname_17 = (char *)("app.o");
 

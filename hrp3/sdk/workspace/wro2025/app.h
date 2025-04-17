@@ -16,4 +16,8 @@
 
 #ifndef TOPPERS_MACRO_ONLY
 extern void	main_task(intptr_t exinf);
+void init_ports();
+void turn(int degree);
+void straight_deg(int degree);
+void straight_mm(int mm);
 #endif
