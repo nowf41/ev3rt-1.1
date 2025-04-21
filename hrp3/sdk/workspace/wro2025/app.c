@@ -16,7 +16,7 @@ void main_task(intptr_t unused) {
     
 }
 
-int port_flags = 0;
+int32_t port_flags = 0;
 
 // Todo handle error
 void init_ports() {
