@@ -12,8 +12,13 @@
 #define CRANE_TYPE LARGE_MOTOR
 #define FINGER_TYPE MEDIUM_MOTOR
 
-#define LEFT_COLOR EV3_PORT_3
-#define RIGHT_COLOR EV3_PORT_2
+#define LEFT_MOTOR_FLAG_DIG 0
+#define RIGHT_MOTOR_FLAG_DIG 1
+#define CRANE_FLAG_DIG 2
+#define FINGER_FLAG_DIG 3
+
+#define LEFT_COLOR EV3_PORT_2
+#define RIGHT_COLOR EV3_PORT_3
 #define GATE_COLOR EV3_PORT_4
 #define GYRO EV3_PORT_1
 
@@ -22,9 +27,15 @@
 #define GATE_COLOR_TYPE COLOR_SENSOR
 #define GYRO_TYPE GYRO_SENSOR
 
+#define LEFT_COLOR_FLAG_DIG 4
+#define RIGHT_COLOR_FLAG_DIG 5
+#define GATE_COLOR_FLAG_DIG 6
+#define GYRO_FLAG_DIG 7
+
 // ===MACHINE INFORMATION===
 #define TIRE_RADIUS 55.0f // 直径。milli meter (float)
 #define TIRE_DISTANCE 127.1f // milli meter (float)
+#define BLACK_BORDER 15
 
 // === CONTROL CONSTANTS ===
 #define P_GAIN 0.3f // float

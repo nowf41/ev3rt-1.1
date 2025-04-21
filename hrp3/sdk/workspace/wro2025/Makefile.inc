@@ -1,1 +1,1 @@
-APPL_COBJS +=
+APPL_COBJS += moves.o sensor.o arm.o
